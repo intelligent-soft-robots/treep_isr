@@ -1,0 +1,37 @@
+shared_memory:
+    path: src/core_robotics
+    origin: mim
+
+real_time_tools:
+    path: src/core_robotics
+    origin: mim
+
+mpi_cmake_modules:
+    path: src/core_robotics
+    origin: mim
+
+robot_interfaces:
+    path: src/interfaces
+    origin: odri
+
+roboball2d_interface:
+    path: src/interfaces
+    origin: isr
+
+synchronizer:
+    path: src/o80
+    origin: isr
+
+o80:
+    path: src/o80
+    origin: isr
+
+o80_roboball2d:
+    path: src/o80
+    origin: isr
+
+ball_launcher_beepy:
+   path: src/hardware
+   origin: isr
+
+

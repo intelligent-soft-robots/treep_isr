@@ -1,0 +1,10 @@
+CORE:
+    repos: ['shared_memory','real_time_tools','mpi_cmake_modules']
+
+O80:
+    parent_projects: ['CORE']
+    repos: ['o80','synchronizer','robot_interfaces']
+
+O80_ROBOBALL2D:
+    parent_projects: ['O80']
+    repos: ['roboball2d_interface','o80_roboball2d']
