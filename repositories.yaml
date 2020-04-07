@@ -6,11 +6,29 @@ real_time_tools:
     path: src/core_robotics
     origin: mim
 
+time_series:
+    path: src/core_robotics
+    origin: mim
+
+pybind11:
+    path: src/third_party
+    origin: https-pybind
+
+pybind11_catkin:
+    path: src/core_robotics
+    origin: mim
+    branch: vberenz/other_path
+    
 mpi_cmake_modules:
     path: src/core_robotics
     origin: mim
 
 robot_interfaces:
+    path: src/interfaces
+    origin: odri
+    branch: vberenz/stable
+
+mpi_cpp_tools:
     path: src/interfaces
     origin: odri
 
@@ -27,6 +45,10 @@ o80:
     origin: isr
 
 o80_roboball2d:
+    path: src/o80
+    origin: isr
+
+o80_roboball2d_example:
     path: src/o80
     origin: isr
 
