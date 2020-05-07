@@ -8,4 +8,4 @@ O80:
 
 O80_ROBOBALL2D:
     parent_projects: ['O80']
-    repos: ['roboball2d_interface','o80_roboball2d','o80_roboball2d_example']
+    repos: ['o80_roboball2d']

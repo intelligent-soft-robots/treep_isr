@@ -32,10 +32,6 @@ mpi_cpp_tools:
     path: src/interfaces
     origin: odri
 
-roboball2d_interface:
-    path: src/interfaces
-    origin: isr
-
 synchronizer:
     path: src/o80
     origin: isr
@@ -45,10 +41,6 @@ o80:
     origin: isr
 
 o80_roboball2d:
-    path: src/o80
-    origin: isr
-
-o80_roboball2d_example:
     path: src/o80
     origin: isr
 
