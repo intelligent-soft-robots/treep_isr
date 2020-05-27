@@ -1,6 +1,6 @@
 CORE:
     repos: ['shared_memory','real_time_tools','mpi_cmake_modules',
-            'pybind11','pybind11_catkin','time_series']
+            'pybind11','pybind11_catkin','time_series','signal_handler']
 
 O80:
     parent_projects: ['CORE']

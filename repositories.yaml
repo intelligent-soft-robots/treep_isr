@@ -6,6 +6,10 @@ real_time_tools:
     path: src/core_robotics
     origin: mim
 
+signal_handler:
+    path: src/core_robotics
+    origin: mpi-is
+
 time_series:
     path: src/core_robotics
     origin: mim
