@@ -9,3 +9,7 @@ O80:
 O80_ROBOBALL2D:
     parent_projects: ['O80']
     repos: ['o80_roboball2d']
+
+PAM:
+    parent_projects: ['O80']
+    repos: ['pam_interface','json_helper','o80_pam']

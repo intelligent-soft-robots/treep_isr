@@ -21,7 +21,6 @@ pybind11:
 pybind11_catkin:
     path: src/core_robotics
     origin: mim
-    branch: vberenz/other_path
     
 mpi_cmake_modules:
     path: src/core_robotics
@@ -30,7 +29,6 @@ mpi_cmake_modules:
 robot_interfaces:
     path: src/interfaces
     origin: odri
-    branch: vberenz/stable
 
 mpi_cpp_tools:
     path: src/interfaces
@@ -52,4 +50,14 @@ ball_launcher_beepy:
    path: src/hardware
    origin: isr
 
+pam_interface:
+   path: src/pam
+   origin: isr
 
+json_helper:
+   path: src/third_party
+   origin: isr
+
+o80_pam:
+   path: src/pam
+   origin: isr
