@@ -1,5 +1,5 @@
 CORE:
-    repos: ['shared_memory','real_time_tools','mpi_cmake_modules',
+    repos: ['shared_memory','real_time_tools','mpi_cmake_modules','serialization_utils',
             'pybind11','pybind11_catkin','time_series','signal_handler']
 
 O80:

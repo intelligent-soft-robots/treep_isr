@@ -1,3 +1,7 @@
+serialization_utils:
+   path: src/core_robotics
+   origin: mpi-is
+
 shared_memory:
     path: src/core_robotics
     origin: mim
