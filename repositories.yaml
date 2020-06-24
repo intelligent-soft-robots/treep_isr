@@ -65,3 +65,7 @@ json_helper:
 o80_pam:
    path: src/pam
    origin: isr
+
+ball_launcher_beepy:
+   path: src/pam
+   origin: isr

@@ -12,4 +12,4 @@ O80_ROBOBALL2D:
 
 PAM:
     parent_projects: ['O80']
-    repos: ['pam_interface','json_helper','o80_pam']
+    repos: ['pam_interface','json_helper','o80_pam','ball_launcher_beepy']
