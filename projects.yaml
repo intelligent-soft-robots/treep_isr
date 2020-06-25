@@ -1,10 +1,10 @@
 CORE:
     repos: ['shared_memory','real_time_tools','mpi_cmake_modules','serialization_utils',
-            'pybind11','pybind11_catkin','time_series','signal_handler']
+            'pybind11','pybind11_catkin','time_series','signal_handler','catkin']
 
 O80:
     parent_projects: ['CORE']
-    repos: ['o80','synchronizer']
+    repos: ['o80','synchronizer','o80_example']
 
 O80_ROBOBALL2D:
     parent_projects: ['O80']

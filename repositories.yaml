@@ -1,3 +1,8 @@
+catkin:
+   origin: git@github.com:ros/catkin.git
+   path: third_party
+   branch: noetic-devel
+   
 serialization_utils:
    path: src/core_robotics
    origin: mpi-is
@@ -35,6 +40,10 @@ synchronizer:
     origin: isr
 
 o80:
+    path: src/o80
+    origin: isr
+
+o80_example:
     path: src/o80
     origin: isr
 
