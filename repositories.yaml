@@ -30,14 +30,6 @@ mpi_cmake_modules:
     path: src/core_robotics
     origin: mim
 
-robot_interfaces:
-    path: src/interfaces
-    origin: odri
-
-mpi_cpp_tools:
-    path: src/interfaces
-    origin: odri
-
 synchronizer:
     path: src/o80
     origin: isr

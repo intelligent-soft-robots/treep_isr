@@ -4,7 +4,7 @@ CORE:
 
 O80:
     parent_projects: ['CORE']
-    repos: ['o80','synchronizer','robot_interfaces','mpi_cpp_tools']
+    repos: ['o80','synchronizer']
 
 O80_ROBOBALL2D:
     parent_projects: ['O80']
