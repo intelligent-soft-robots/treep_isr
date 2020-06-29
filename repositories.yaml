@@ -1,72 +1,72 @@
 catkin:
    origin: git@github.com:ros/catkin.git
-   path: third_party
+   path: src
    branch: noetic-devel
    
 serialization_utils:
-   path: src/core_robotics
+   path: src
    origin: mpi-is
 
 shared_memory:
-    path: src/core_robotics
+    path: src
     origin: mim
 
 real_time_tools:
-    path: src/core_robotics
+    path: src
     origin: mim
 
 signal_handler:
-    path: src/core_robotics
+    path: src
     origin: mpi-is
 
 time_series:
-    path: src/core_robotics
+    path: src
     origin: mim
 
 pybind11:
-    path: src/third_party
+    path: src
     origin: https-pybind
 
 pybind11_catkin:
-    path: src/core_robotics
+    path: src
     origin: mim
     
 mpi_cmake_modules:
-    path: src/core_robotics
+    path: src
     origin: mim
 
 synchronizer:
-    path: src/o80
+    path: src
     origin: isr
 
 o80:
-    path: src/o80
+    path: src
     origin: isr
 
 o80_example:
-    path: src/o80
+    path: src
     origin: isr
 
 o80_roboball2d:
-    path: src/o80
+    path: src
     origin: isr
 
 ball_launcher_beepy:
-   path: src/hardware
+   path: src
    origin: isr
 
 pam_interface:
-   path: src/pam
+   path: src
    origin: isr
 
 json_helper:
-   path: src/third_party
+   path: src
    origin: isr
 
 o80_pam:
-   path: src/pam
+   path: src
    origin: isr
 
 ball_launcher_beepy:
-   path: src/pam
+   path: src
    origin: isr
