@@ -59,6 +59,14 @@ pam_interface:
    path: src
    origin: isr
 
+pam_models:
+   path: src
+   origin: isr
+
+pam_mujoco:
+   path: src
+   origin: isr
+
 json_helper:
    path: src
    origin: isr
