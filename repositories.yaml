@@ -82,3 +82,7 @@ ball_launcher_beepy:
 context:
    path: src
    origin: isr
+
+mujoco200:
+   path: src
+   origin: robotics

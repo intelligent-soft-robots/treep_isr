@@ -16,4 +16,4 @@ PAM:
 
 PAM_MUJOCO:
     parent_projects: ['PAM']
-    repos: ['pam_mujoco']
+    repos: ['pam_mujoco','mujoco200']
