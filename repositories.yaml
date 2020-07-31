@@ -26,6 +26,7 @@ time_series:
 pybind11:
     path: src
     origin: https-pybind
+    branch: stable
 
 pybind11_catkin:
     path: src
