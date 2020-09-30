@@ -87,3 +87,7 @@ context:
 mujoco200:
    path: src
    origin: robotics
+
+learning_table_tennis_from_scratch:
+   path: src
+   origin: isr

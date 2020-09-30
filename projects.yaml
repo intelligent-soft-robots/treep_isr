@@ -16,4 +16,4 @@ PAM:
 
 PAM_MUJOCO:
     parent_projects: ['PAM']
-    repos: ['pam_mujoco','mujoco200']
+    repos: ['pam_mujoco','mujoco200','learning_table_tennis_from_scratch']

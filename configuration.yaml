@@ -3,5 +3,5 @@ origin_prefixes:
     mim: 'git@github.com:machines-in-motion/'
     odri: 'git@github.com:open-dynamic-robot-initiative/'
     mpi-is: 'git@github.com:MPI-IS/'
-    robotics: 'git@git-amd.tuebingen.mpg.de:robotics/'
+    robotics: 'git@gitlab.is.tuebingen.mpg.de:robotics/'
     https-pybind: 'https://github.com/pybind/'
