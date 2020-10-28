@@ -1,10 +1,12 @@
 ament_cmake:
    path: src
    origin: https-ament
+   branch: eloquent
    
 ament_package:
    path: src
    origin: https-ament
+   branch: eloquent
 
 serialization_utils:
    path: src
