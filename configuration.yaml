@@ -5,3 +5,5 @@ origin_prefixes:
     mpi-is: 'git@github.com:MPI-IS/'
     robotics: 'git@gitlab.is.tuebingen.mpg.de:robotics/'
     https-pybind: 'https://github.com/pybind/'
+    https-ament: 'https://github.com/ament/'
+    https-ros2: 'https://github.com/ros2/'

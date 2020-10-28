@@ -1,8 +1,11 @@
-catkin:
-   origin: git@github.com:ros/catkin.git
+ament_cmake:
    path: src
-   branch: noetic-devel
+   origin: https-ament
    
+ament_package:
+   path: src
+   origin: https-ament
+
 serialization_utils:
    path: src
    origin: mpi-is
@@ -28,10 +31,10 @@ pybind11:
     origin: https-pybind
     tag: v2.5.0
 
-pybind11_catkin:
-    path: src
-    origin: mim
-    
+pybind11_vendor:
+   path: src
+   origin: https-ros2
+
 mpi_cmake_modules:
     path: src
     origin: mim
@@ -91,3 +94,4 @@ mujoco200:
 learning_table_tennis_from_scratch:
    path: src
    origin: isr
+
