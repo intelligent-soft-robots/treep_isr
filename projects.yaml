@@ -12,8 +12,8 @@ O80_ROBOBALL2D:
 
 PAM:
     parent_projects: ['O80']
-    repos: ['pam_interface','json_helper','o80_pam','ball_launcher_beepy','context','pam_models']
+    repos: ['pam_interface','json_helper','o80_pam','context','pam_models']
 
 PAM_MUJOCO:
     parent_projects: ['PAM']
-    repos: ['pam_mujoco','mujoco200','learning_table_tennis_from_scratch']
+    repos: ['pam_mujoco','mujoco_interface','learning_table_tennis_from_scratch']

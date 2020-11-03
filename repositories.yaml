@@ -8,6 +8,10 @@ ament_package:
    origin: https-ament
    branch: eloquent
 
+mujoco_interface:
+   path: src
+   origin: isr
+
 serialization_utils:
    path: src
    origin: mpi-is
@@ -88,10 +92,6 @@ ball_launcher_beepy:
 context:
    path: src
    origin: isr
-
-mujoco200:
-   path: src
-   origin: robotics
 
 learning_table_tennis_from_scratch:
    path: src
