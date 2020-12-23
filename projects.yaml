@@ -1,10 +1,12 @@
-CORE:
+CORE_ISR:
     repos: ['shared_memory','real_time_tools','mpi_cmake_modules','serialization_utils',
             'pybind11','pybind11_vendor','time_series','signal_handler','ament_cmake','ament_package']
+    apt_dependencies: ['libboost-all-dev','libeigen3-dev','libcereal-dev']
 
 O80:
-    parent_projects: ['CORE']
+    parent_projects: ['CORE_ISR']
     repos: ['o80','synchronizer','o80_example']
+    apt_dependencies: ['libedit-dev','libncurses5-dev','freeglut3-dev','libxmu-dev']
 
 O80_ROBOBALL2D:
     parent_projects: ['O80']
@@ -17,3 +19,4 @@ PAM:
 PAM_MUJOCO:
     parent_projects: ['PAM']
     repos: ['pam_mujoco','mujoco_interface','learning_table_tennis_from_scratch']
+    apt_dependencies: ['libxmu-dev', 'libopenblas-dev', 'liblapack-dev', 'libarmadillo-dev']
