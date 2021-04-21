@@ -101,6 +101,7 @@ learning_table_tennis_from_scratch:
    path: src
    origin: isr
 
-failing_unit_test:
+pam_documentation:
    path: src
    origin: isr
+   branch: main
