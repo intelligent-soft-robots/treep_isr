@@ -1,6 +1,10 @@
+AMENT:
+    repos: ['ament_cmake','ament_package']
+
 CORE:
+    parent_projects: ['AMENT']
     repos: ['googletest','shared_memory','real_time_tools','mpi_cmake_modules','serialization_utils',
-            'pybind11','pybind11_vendor','time_series','signal_handler','ament_cmake','ament_package']
+            'pybind11','pybind11_vendor','time_series','signal_handler']
 
 CODEWINGS:
     repos: ['googletest','shared_memory','mpi_cmake_modules','ament_cmake','ament_package','failing_unit_test']
@@ -20,3 +24,7 @@ PAM:
 PAM_MUJOCO:
     parent_projects: ['PAM']
     repos: ['pam_mujoco','mujoco_interface']
+
+BALL_TRACKING:
+    parent_projects: ['AMENT']
+    repos: ['tennicam_proto','tennicam','mpi_cmake_modules']

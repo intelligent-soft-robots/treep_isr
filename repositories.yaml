@@ -105,3 +105,14 @@ pam_documentation:
    path: src
    origin: isr
    branch: main
+
+tennicam_proto:
+   path: src
+   origin: isr
+   branch: vberenz/dev
+
+tennicam:
+   path: src
+   origin: isr
+   branch: vberenz/dev
+
