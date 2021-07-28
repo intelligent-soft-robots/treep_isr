@@ -109,10 +109,8 @@ pam_documentation:
 tennicam_proto:
    path: src
    origin: isr
-   branch: vberenz/dev
 
 tennicam:
    path: src
    origin: isr
-   branch: vberenz/dev
 
