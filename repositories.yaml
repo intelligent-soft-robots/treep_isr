@@ -53,6 +53,10 @@ synchronizer:
     path: src
     origin: isr
 
+frequency_monitoring:
+    path: src
+    origin: isr
+
 o80:
     path: src
     origin: isr
