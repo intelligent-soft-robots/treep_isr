@@ -118,3 +118,6 @@ tennicam:
    path: src
    origin: isr
 
+tennicam_client:
+   path: src
+   origin: isr
