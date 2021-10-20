@@ -28,3 +28,24 @@ PAM_MUJOCO:
 BALL_TRACKING:
     parent_projects: ['AMENT']
     repos: ['tennicam_proto','tennicam','mpi_cmake_modules']
+
+# List of repositories to which common GitHub workflows should be added (e.g.
+# for style checks on pull requests).
+WORKFLOW_REPOS:
+    repos: [
+        'context',
+        'frequency_monitoring',
+        'github_workflow_manager',
+        'json_helper',
+        'mujoco_interface',
+        'o80',
+        'o80_example',
+        'o80_pam',
+        'pam_interface',
+        'pam_models',
+        'pam_mujoco',
+        'serialization_utils',
+        'signal_handler',
+        'synchronizer',
+        'tennicam_client',
+    ]
