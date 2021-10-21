@@ -121,3 +121,8 @@ tennicam:
 tennicam_client:
    path: src
    origin: isr
+
+github_workflow_manager:
+   path: src
+   origin: isr
+   branch: main
