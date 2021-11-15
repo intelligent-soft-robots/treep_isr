@@ -23,7 +23,7 @@ PAM:
 
 PAM_MUJOCO:
     parent_projects: ['PAM']
-    repos: ['pam_mujoco','mujoco_interface','tennicam_client']
+    repos: ['pam_mujoco','mujoco_interface','tennicam_client','ball_launcher_beepy']
 
 BALL_TRACKING:
     parent_projects: ['AMENT']
