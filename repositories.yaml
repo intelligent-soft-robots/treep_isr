@@ -1,6 +1,8 @@
 googletest:
     path: src
     origin: git@github.com:google/googletest.git
+    branch: main
+    tag: release-1.11.0
 
 ament_cmake:
    path: src
