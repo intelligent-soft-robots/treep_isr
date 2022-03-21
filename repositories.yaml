@@ -74,6 +74,10 @@ ball_launcher_beepy:
    path: src
    origin: isr
 
+pam_configuration:
+   path: src
+   origin: isr
+
 pam_interface:
    path: src
    origin: isr
