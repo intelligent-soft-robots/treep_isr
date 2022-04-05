@@ -16,6 +16,7 @@ ament_package:
 mujoco_interface:
    path: src
    origin: isr
+   branch: vberenz/install
 
 serialization_utils:
    path: src
@@ -89,6 +90,7 @@ pam_models:
 pam_mujoco:
    path: src
    origin: isr
+   branch: vberenz/dev
 
 json_helper:
    path: src
@@ -118,6 +120,7 @@ pam_documentation:
 pam_configuration:
    path: src
    origin: isr
+   branch: vberenz/dev
 
 tennicam_proto:
    path: src
@@ -139,4 +142,10 @@ github_workflow_manager:
 pam_install:
    path: src
    origin: isr
+   branch: vberenz/dev
+
+cmake_always_do:
+   path: src
+   origin: isr
    branch: master
+   
