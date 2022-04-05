@@ -19,11 +19,11 @@ O80_ROBOBALL2D:
 
 PAM:
     parent_projects: ['O80']
-    repos: ['pam_interface','json_helper','o80_pam','context','pam_models','frequency_monitoring']
+    repos: ['pam_interface','json_helper','o80_pam','context','pam_models','frequency_monitoring','pam_configuration']
 
 PAM_MUJOCO:
     parent_projects: ['PAM']
-    repos: ['pam_mujoco','mujoco_interface','tennicam_client','ball_launcher_beepy']
+    repos: ['pam_mujoco','mujoco_interface','tennicam_client','ball_launcher_beepy',"pam_install"]
 
 BALL_TRACKING:
     parent_projects: ['AMENT']

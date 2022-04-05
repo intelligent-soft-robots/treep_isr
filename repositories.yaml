@@ -111,6 +111,10 @@ pam_documentation:
    origin: isr
    branch: main
 
+pam_configuration:
+   path: src
+   origin: isr
+
 tennicam_proto:
    path: src
    origin: isr
@@ -127,3 +131,8 @@ github_workflow_manager:
    path: src
    origin: isr
    branch: main
+
+pam_install:
+   path: src
+   origin: isr
+   branch: master
