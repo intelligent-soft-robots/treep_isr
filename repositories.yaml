@@ -127,7 +127,16 @@ tennicam_client:
    path: src
    origin: isr
 
+pam_install:
+   path: src
+   origin: isr
+
+cmake_always_do:
+   path: src
+   origin: isr
+
 github_workflow_manager:
    path: src
    origin: isr
    branch: main
+
