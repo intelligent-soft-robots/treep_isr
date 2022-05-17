@@ -140,3 +140,6 @@ github_workflow_manager:
    origin: isr
    branch: main
 
+hysr:
+   path: src
+   origin: isr

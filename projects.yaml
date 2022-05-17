@@ -36,6 +36,7 @@ WORKFLOW_REPOS:
         'context',
         'frequency_monitoring',
         'github_workflow_manager',
+        'hysr',
         'json_helper',
         'mujoco_interface',
         'o80',
