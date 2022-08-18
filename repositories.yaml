@@ -143,3 +143,7 @@ github_workflow_manager:
 hysr:
    path: src
    origin: isr
+
+shadow_hand_o80_mujoco:
+   path: src
+   origin: isr

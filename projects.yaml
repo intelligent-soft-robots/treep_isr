@@ -25,6 +25,10 @@ PAM_MUJOCO:
     parent_projects: ['PAM']
     repos: ['pam_mujoco','mujoco_interface','tennicam_client','ball_launcher_beepy','pam_install']
 
+SHADOW_HAND:
+    parent_projects: ['PAM']
+    repos: ['mujoco_interface','shadow_hand_o80_mujoco']
+
 BALL_TRACKING:
     parent_projects: ['AMENT']
     repos: ['tennicam_proto','tennicam','mpi_cmake_modules']
