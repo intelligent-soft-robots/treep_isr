@@ -147,3 +147,8 @@ hysr:
 shadow_hand_o80_mujoco:
    path: src
    origin: isr
+
+vicon_transformer:
+   path: src
+   origin: isr
+   branch: main

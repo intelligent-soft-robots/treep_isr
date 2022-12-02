@@ -54,4 +54,5 @@ WORKFLOW_REPOS:
         'signal_handler',
         'synchronizer',
         'tennicam_client',
+        'vicon_transformer'
     ]
