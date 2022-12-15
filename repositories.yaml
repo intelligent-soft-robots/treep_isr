@@ -42,10 +42,6 @@ pybind11:
     origin: https-pybind
     tag: v2.5.0
 
-pybind11_vendor:
-   path: src
-   origin: https-ros2
-
 mpi_cmake_modules:
     path: src
     origin: mim

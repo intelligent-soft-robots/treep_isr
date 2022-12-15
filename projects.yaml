@@ -4,7 +4,7 @@ AMENT:
 CORE:
     parent_projects: ['AMENT']
     repos: ['googletest','shared_memory','real_time_tools','mpi_cmake_modules','serialization_utils',
-            'pybind11','pybind11_vendor','time_series','signal_handler']
+            'pybind11','time_series','signal_handler']
 
 CODEWINGS:
     repos: ['googletest','shared_memory','mpi_cmake_modules','ament_cmake','ament_package','failing_unit_test']
