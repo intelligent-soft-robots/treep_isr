@@ -7,10 +7,15 @@ ament_cmake:
    path: src
    origin: https-ament
    branch: eloquent
-   
+
 ament_package:
    path: src
    origin: https-ament
+   branch: eloquent
+
+ament_googletest:
+   path: src
+   origin: https://github.com/ament/googletest.git
    branch: eloquent
 
 mujoco_interface:

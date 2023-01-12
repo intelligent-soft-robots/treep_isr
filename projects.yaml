@@ -1,5 +1,5 @@
 AMENT:
-    repos: ['ament_cmake','ament_package']
+    repos: ['ament_cmake', 'ament_package', 'ament_googletest']
 
 CORE:
     parent_projects: ['AMENT']
