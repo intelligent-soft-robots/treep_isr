@@ -33,6 +33,10 @@ BALL_TRACKING:
     parent_projects: ['AMENT']
     repos: ['tennicam_proto','tennicam','mpi_cmake_modules']
 
+PAM_VICON:
+    parent_projects: ['AMENT']
+    repos: ['googletest', 'pybind11', 'mpi_cmake_modules', 'cli_utils', 'vicon_transformer']
+
 # List of repositories to which common GitHub workflows should be added (e.g.
 # for style checks on pull requests).
 WORKFLOW_REPOS:
