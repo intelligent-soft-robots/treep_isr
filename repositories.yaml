@@ -22,6 +22,10 @@ mujoco_interface:
    path: src
    origin: isr
 
+cli_utils:
+    path: src/
+    origin: mpi-is
+
 serialization_utils:
    path: src
    origin: mpi-is
