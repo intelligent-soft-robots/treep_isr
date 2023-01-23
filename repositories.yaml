@@ -49,7 +49,7 @@ time_series:
 pybind11:
     path: src
     origin: https-pybind
-    tag: v2.5.0
+    tag: v2.10.2
 
 mpi_cmake_modules:
     path: src
