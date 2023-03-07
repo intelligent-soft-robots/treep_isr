@@ -35,7 +35,14 @@ BALL_TRACKING:
 
 PAM_VICON:
     parent_projects: ['AMENT']
-    repos: ['googletest', 'pybind11', 'mpi_cmake_modules', 'cli_utils', 'vicon_transformer']
+    repos: [
+        'googletest',
+        'pybind11',
+        'mpi_cmake_modules',
+        'cli_utils',
+        'vicon_transformer',
+        'spatial_transformation',
+    ]
 
 # List of repositories to which common GitHub workflows should be added (e.g.
 # for style checks on pull requests).

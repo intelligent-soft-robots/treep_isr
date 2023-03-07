@@ -30,6 +30,10 @@ serialization_utils:
    path: src
    origin: mpi-is
 
+spatial_transformation:
+   path: src
+   origin: mpi-is
+
 shared_memory:
     path: src
     origin: mim
