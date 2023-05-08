@@ -44,6 +44,10 @@ PAM_VICON:
         'spatial_transformation',
     ]
 
+PAM_PREDICTION:
+    parent_projects: ['PAM_MUJOCO']
+    repos: ['ball_trajectory_models']
+
 # List of repositories to which common GitHub workflows should be added (e.g.
 # for style checks on pull requests).
 WORKFLOW_REPOS:
