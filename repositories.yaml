@@ -162,7 +162,7 @@ vicon_transformer:
    origin: isr
    branch: main
 
-ball_trajectory_models:
+ball_models:
    path: src
    origin: isr
-   branch: cpp_implementation
+   branch: main
