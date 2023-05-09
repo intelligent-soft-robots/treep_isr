@@ -166,3 +166,8 @@ ball_models:
    path: src
    origin: isr
    branch: main
+   
+ball_prediction:
+   path: src
+   origin: isr
+   branch: main
