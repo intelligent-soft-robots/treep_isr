@@ -161,3 +161,8 @@ vicon_transformer:
    path: src
    origin: isr
    branch: main
+   
+pam_vicon:
+   path: src
+   origin: isr
+   branch: master

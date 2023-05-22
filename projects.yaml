@@ -42,6 +42,7 @@ PAM_VICON:
         'cli_utils',
         'vicon_transformer',
         'spatial_transformation',
+        'pam_vicon',
     ]
 
 # List of repositories to which common GitHub workflows should be added (e.g.
