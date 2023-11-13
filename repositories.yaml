@@ -166,3 +166,8 @@ pam_vicon:
    path: src
    origin: isr
    branch: master
+
+o80_webcam:
+   path: src
+   origin: isr
+   branch: master
